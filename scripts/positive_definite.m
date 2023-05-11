@@ -1,5 +1,7 @@
-% positive definite
+clc, clear;
+% check if a matrix is positive definite
 
+% symmetric
 % eigenvalues positive
 % for all m subset of [1,n] determinant of A(m) > 0
 
