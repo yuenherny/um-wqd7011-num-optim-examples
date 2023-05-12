@@ -15,6 +15,9 @@ gradient_mat = gradient(f)
 df = function_handle(gradient_mat)
 
 % calculate direction at first point
-p = -df(c0(1),c0(2))
-c1 = c0 + p
+p0 = -df(c0(1),c0(2))
+c1 = c0 + p0
 
+% calculate direction at second point
+p1 = -df(c1(1),c1(2))
+c2 = c1 + p1
