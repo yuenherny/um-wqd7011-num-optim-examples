@@ -1,5 +1,5 @@
 # Numerical Optimisation Examples in Octave
-Examples for WQD7011 exam preparation.
+Numerical optimisation examples for WQD7011 exam preparation.
 
 ## Course Info
 Name: Numerical Optimisation
@@ -9,7 +9,9 @@ Code: WQD7011
 Repo type: Exam prep
 
 ## Project Structure
-To be updated
+The project is structured as follows:
+1. `examples` folder contains usage examples
+2. `src` folder contains custom functions
 
 ## How to use this Repository
 1. Install and launch Octave.
