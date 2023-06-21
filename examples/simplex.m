@@ -42,3 +42,31 @@ sense = 1;
 [q3_xmin, q3_fmin] = glpk(C, A, b, lb, ub, cType, varType, sense);
 q3_xmin
 q3_fmin
+
+disp("Q4")
+C = [4; 6; -3; 5];
+A = [2 6 2 0; 0 -3 5 4];
+b = [20; 72];
+lb = [0; 0; 0; 0];
+ub = [];
+cType = "SU";
+varType = "CCCC";
+sense = 1;
+
+[q4_xmin, q4_fmin] = glpk(C, A, b, lb, ub, cType, varType, sense);
+q4_xmin
+q4_fmin
+
+disp("Q5")
+C = [3; 2; -5];
+A = [1 2 -3; -2 1 0; 2 0 3];
+b = [0; 5; 18];
+lb = [0; 0; 0];
+ub = [];
+cType = "SLU";
+varType = "CCC";
+sense = -1;
+
+[q5_xmin, q5_fmin] = glpk(C, A, b, lb, ub, cType, varType, sense);
+q5_xmin
+q5_fmin

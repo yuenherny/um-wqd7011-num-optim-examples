@@ -6,8 +6,8 @@ pkg load symbolic % install first
 
 % DEFINE YOUR FUNCTION HERE
 syms x y;
-f = 3*x^2*sin(y) - 6*y^4*sin(x^2) + 9*x*y;
-c0 = [0;0];
+f = sin(x+y) + (x-y)^2 - 1.5*x + 2.5*y + 1
+c0 = [-1;-2];
 
 % calculate gradient matrix
 % ref: https://octave.sourceforge.io/symbolic/function/@sym/gradient.html
