@@ -16,7 +16,7 @@ The project is structured as follows:
 ## How to use this Repository
 1. Install and launch Octave.
 2. Install `symbolic` package from [Octave](https://gnu-octave.github.io/packages/symbolic/)
-3. Open this project in Octave, then go to `scripts` folder.
+3. Open this project in Octave, then go to `examples` folder.
 4. Modify the examples as you wished.
 
 ## Disclaimer
